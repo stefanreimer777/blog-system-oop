@@ -1,0 +1,85 @@
+/**************************************/
+/********** DEBUGGING STYLES **********/
+/**************************************/
+
+
+.debug,.debugCleanString,.debugCheckMandatory,.debugCheckInputString,.debugCheckEmail,
+.debugImageUpload,.debugDb,.debugDateTime,.debugClass,.debugClassImage,.debugTrait,
+.debugClassLoader  {
+	background-color: dodgerblue;
+	padding: 2px 5px;
+	margin-bottom: 2px;
+	margin-top: 2px;
+	font-family: arial;
+	font-size: 0.9em;
+	color: white;
+	margin-left: 1em;
+}
+.debugCleanString {
+	background-color: palegreen;
+	color: black;
+}
+.debugCheckMandatory {
+	background-color: greenyellow;
+	color: black;
+}
+.debugCheckInputString {
+	background-color: springgreen;
+	color: black;
+}
+.debugCheckEmail {
+	background-color: chartreuse;
+	color: black;
+}
+.debugImageUpload {
+	background-color: darkcyan;
+}
+.debugDb {
+	background-color: darkorange;
+}
+.debugDateTime {
+	background-color: #ccc;
+}
+.debugClass {
+	background-color: lightblue;
+	font-family: courier new;
+	font-size: 0.9em;
+	color: #333;
+}
+.debugClassImage {
+	background-color: darkcyan;
+	font-family: courier new;
+	font-size: 0.9em;
+}
+.debugTrait {
+	background-color: lightskyblue;
+	font-family: courier new;
+	font-size: 0.9em;
+	color: #333;
+}
+.debugClassLoader {
+	background-color: cornflowerblue;
+}
+.err, .ok, .hint {
+	border-radius: 1em 0 0 1em;
+	border-left: 1em solid whitesmoke;
+	margin-left: 0em;
+}
+.err {
+	border-color: red;
+}
+.ok {
+	border-color: lime;
+}
+.hint {
+	border-color: darkorange;
+}
+.value {
+	opacity: 70%;
+}
+pre {
+	border-radius: 10px;
+	display: table;
+	margin-left: 1em;
+	border-spacing: 1em;
+}
